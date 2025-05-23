@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>sore - Puisiku</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <audio autoplay loop hidden>
+    <source src="'Undertow' [Sombre Piano & Strings CC-BY] - Scott Buckley - Scott Buckley.mp3" type="audio/mpeg">
+  </audio>
+<header>
+  <div class="container">
+    <h1>Puisiku</h1>
+    <nav>
+      <ul>
+        <li><a href="../Index.htmlS">Beranda</a></li>
+        <li><a href="../puisi-terbaru.html">Puisi Terbaru</a></li>
+
+        <li><a href="../tentang.html">Tentang</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="poem-detail container">
+  <h2>Sore</h2>
+  <p class="author">Oleh: Yodha Rafif Raissa</p>
+
+  <div class="poem-content">
+    <p>Sore itu, langit menjingga pelan,
+      seperti senyum yang pernah kutemui,</p>
+    <p>angin menari di antara dahan,</p>
+    <p>membawa bisik yang tak bertepi.</p>
+
+    <br>
+
+    <p>Aku duduk di bangku usang,
+      tempat waktu pernah berbisik lembut,</p>
+    <p>ada bayang yang tak kusebut,</p>
+    <p>namun diam-diam masih menetap.</p>
+
+    <br>
+
+    <p>Bagaimana jika senja mengulang jejak?
+      Jika langkah yang samar kembali nyata?
+      Jika jarak tak lagi jadi jurang,</p>
+    <p>dan waktu bersedia memberi jeda?,</p>
+    <br>
+    <p>Namun sore tetap setia berlalu,
+      membiarkan harap menggantung lirih,
+      dan aku, di antara redupnya langit,
+      masih memeluk kemungkinan yang rapuh</p>
+  </div>
+  
+  <div class="like-comment-section">
+    <button class="like-button" onclick="likePoem(this)">❤️ <span class="like-count">0</span></button>
+    
+    <form onsubmit="submitComment(event, this)">
+      <input type="text" placeholder="Tulis komentar..." required>
+      <button type="submit">Kirim</button>
+    </form>
+
+  <a href="../puisi-terbaru.html" class="btn">← Kembali ke Puisi Terbaru</a>
+</section>
+
+<footer>
+  <p>© 2025 Puisiku. Semua hak cipta dilindungi.</p>
+</footer>
+
+</body>
+</html>
